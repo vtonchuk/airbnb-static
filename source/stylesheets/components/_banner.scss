@@ -1,0 +1,26 @@
+/* Banner design */
+.bg-container {
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg-banner {
+  background: linear-gradient(-225deg, rgba(1,1,1,0.7) 0%, rgba(20,20,20,0.7) 50%), url("../../images/background.jpg");
+  background-size: cover;
+}
+
+.headline {
+  font-size:50px;
+  font-weight: 700;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sub-headline {
+  font-size: 25px;
+  font-weight: 300;
+}
