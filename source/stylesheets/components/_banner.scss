@@ -1,4 +1,7 @@
 /* Banner design */
+$red: #D23333;
+$blue: #5E74ED;
+
 .bg-container {
   height: 100vh;
   color: #ffffff;
@@ -23,4 +26,20 @@
 .sub-headline {
   font-size: 25px;
   font-weight: 300;
+}
+
+.btn-primary {
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  background: $red;
+  transition: background 0.3s ease;
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+    color: white;
+  }
 }
